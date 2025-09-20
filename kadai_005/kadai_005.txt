@@ -28,3 +28,11 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 mac@makkunoMacBook-Air git_challenge % git log --oneline
 50510c5 (HEAD -> main) add hello_world.txt
+mac@makkunoMacBook-Air git_challenge % git add hello_world.txt
+mac@makkunoMacBook-Air git_challenge % git commit -m "change contents"               
+[main 240143a] change contents
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+mac@makkunoMacBook-Air git_challenge % git log --oneline
+240143a (HEAD -> main) change contents
+50510c5 add hello_world.txt
+mac@makkunoMacBook-Air git_challenge % 
